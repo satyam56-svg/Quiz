@@ -80,3 +80,51 @@ body {
     background: #ff9393;
 }
 
+/* ✅ Tablet View */
+@media (max-width: 768px) {
+    .app {
+        padding: 25px;
+        margin: 70px auto 0;
+    }
+
+    .app h1 {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+
+    .quiz h2 {
+        font-size: 16px;
+    }
+
+    #next-btn {
+        width: 120px;
+        padding: 8px;
+    }
+}
+
+/* ✅ Mobile View */
+@media (max-width: 480px) {
+    .app {
+        padding: 20px;
+        margin: 50px auto 0;
+    }
+
+    .app h1 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .quiz h2 {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #next-btn {
+        width: 100%;
+        padding: 10px;
+    }
+}
